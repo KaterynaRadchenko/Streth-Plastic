@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stretch&Plastic | Київ</title>
+
+<meta name="description" content="Студія стретчингу в Києві">
+<meta name="keywords" content="стретчинг, шпагат, Київ">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">Stretch&Plastic</div>
+  <nav>
+    <a href="#">Головна</a>
+    <a href="#">Послуги</a>
+    <a href="#">Контакти</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="left">
+    <p class="tag">ФІТНЕС СТУДІЯ</p>
+    <h1>Розтяжка, шпагат і гнучкість без болю</h1>
+    <p class="desc">Допомагаємо швидко досягти результату без травм</p>
+    <button onclick="scrollToForm()">Записатися</button>
+  </div>
+
+  <div class="card">
+    <h3>Що отримує клієнт</h3>
+    <ul>
+      <li>Персональний підхід</li>
+      <li>Комфортні тренування</li>
+      <li>Результат вже за 1 місяць</li>
+    </ul>
+  </div>
+</section>
+
+<section id="form" class="form">
+<h2>Онлайн запис</h2>
+<form onsubmit="sendForm(event)">
+<input placeholder="Ім'я" required>
+<input placeholder="Телефон" required>
+<select>
+<option>Стретчинг</option>
+<option>Шпагат</option>
+</select>
+<button>Відправити</button>
+</form>
+</section>
+
+<footer class="footer">
+<p>Розробник Катерина Радченко, 2026</p>
+<p>Kateryna Radchenko, 2026</p>
+<p>k.radchenko_femp_14_22_b_d@knute.edu.ua</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
